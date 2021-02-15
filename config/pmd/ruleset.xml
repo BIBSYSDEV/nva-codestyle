@@ -37,7 +37,10 @@
     <exclude name="TooManyStaticImports"/>
     <exclude name="ClassNamingConventions"/>
     <exclude name="UnnecessaryConstructor"/>
-
+    <!-- Conflicts with the rule category/java/codestyle.xml/AvoidProtectedMethodInFinalClassNotExtending -->
+    <exclude name="CommentDefaultAccessModifier"/>
+    <!-- Conflicts with the rule category/java/codestyle.xml/AvoidProtectedMethodInFinalClassNotExtending -->
+    <exclude name="DefaultPackage"/>
     <!--<exclude name="BeanMembersShouldSerialize"/>-->
 
     <exclude name="ConfusingTernary"/>
