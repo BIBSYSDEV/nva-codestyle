@@ -63,9 +63,10 @@
 
   </rule>
 
-
-  <rule ref="category/java/performance.xml"/>
-
+  <rule ref="category/java/performance.xml">
+    <!-- Obsolete rule -->
+    <exclude name="AvoidInstantiatingObjectsInLoops"/>
+  </rule>
 
   <rule ref="category/java/design.xml">
     <exclude name="LoosePackageCoupling"/>
